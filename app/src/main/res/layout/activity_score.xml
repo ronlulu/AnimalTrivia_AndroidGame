@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Game"
+    android:background="@color/teal_700">
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/score_LBl_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="id: 205857394"
+    android:layout_above="@id/score_LBL_Score"
+        android:layout_centerHorizontal="true"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/score_LBL_Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="7dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="score: 0"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/score_LBL_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score_LBL_Score"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="time: __ sec"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/score_BTN_endGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="END GAME"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+</RelativeLayout>
